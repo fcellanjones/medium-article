@@ -1,0 +1,62 @@
+body {
+font-family: 'Open Sans', sans-serif;
+color: #494949;
+font-size: 20px;
+line-height: 1.6;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+.banner {
+  background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+}
+
+.link-medium {
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media(max-width: (576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
